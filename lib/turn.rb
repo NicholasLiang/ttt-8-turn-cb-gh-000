@@ -12,11 +12,12 @@ def turn(board)
   next_move = gets.strip
   index = input_to_index(next_move)
   if valid_move?(board, index)
+    move(board, index)
   index = -1
   until 
     
   end
-  move(board, index)
+  
   display_board(board)
 end
 
