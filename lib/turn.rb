@@ -30,4 +30,4 @@ def turn(board)
   move(board, index)
 end
 
-input2index
+input2index(next_move)
