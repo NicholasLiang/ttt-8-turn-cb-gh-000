@@ -31,4 +31,5 @@ def move(board, index, value = "X")
 end
 
 def input2index(next_move)
-  next_move.to_id
+  next_move.
+end
