@@ -16,7 +16,10 @@ def turn(board)
   else
     until valid_move?(board, index)
       next_move = gets.strip
-    index = input_to_index(next_move)
+      index = input_to_index(next_move)
+    end
+    move(board, index)
+  end
   
   display_board(board)
 end
