@@ -20,7 +20,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  until 
+  
   next_move = gets.strips
   
 end
