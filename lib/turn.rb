@@ -6,6 +6,18 @@ def display_board(board)
   puts " #{board[6]} |  #{board[7]} | #{board[8]} "
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+  
+  
+  next_move = nil
+  until valid_move?(next_move)
+    next_move = gets.strips
+  end
+  
+  move(board, index)
+end
+
 def valid_move?(board, index)
   
 end
@@ -18,16 +30,6 @@ def move(board, index, value = "X")
   
 end
 
-def turn(board)
-  puts "Please enter 1-9:"
-  
-  
-  next_move = nil
-  until valid_move?(next_move)
-    next_move = gets.strips
-  end
-  
-  move(board, index)
-end
+
 
 def input2index(next_move)
