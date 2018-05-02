@@ -25,5 +25,6 @@ def turn(board)
   next_move = nil
   until valid_move?(next_move)
     next_move = gets.strips
+  end
   
 end
