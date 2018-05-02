@@ -23,7 +23,8 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  if board[index] == "X" || board[index] == "X"
+  if board[index] == "X" || board[index] == "O"
+    return true
 end
 
 def move(board, index, value = "X")
