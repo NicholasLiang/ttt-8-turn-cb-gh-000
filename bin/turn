@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
 # global variable
-board = [" "," "," "," "," "," "," "," "," ",]
+board = [" "," "," "," "," "," "," "," "," "]
+
+puts "Welcome to Tic Tac Toe!"
