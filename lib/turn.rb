@@ -14,7 +14,7 @@ def turn(board)
     next_move = gets.strip
     index = input_to_index(next_move)
   end
-  # move(board, index)
+  move(board, index)
 end
 
 def valid_move?(board, index)
