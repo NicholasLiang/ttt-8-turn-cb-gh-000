@@ -19,13 +19,14 @@ def turn(board)
 end
 
 def valid_move?(board, index)
-  
+  if 
 end
 
 def position_taken?(board, index)
   if board[index] == "X" || board[index] == "O"
     return true
   end
+  false
 end
 
 def move(board, index, value = "X")
