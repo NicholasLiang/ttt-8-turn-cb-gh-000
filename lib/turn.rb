@@ -15,6 +15,7 @@ def turn(board)
     index = input_to_index(next_move)
   end
   move(board, index)
+  display_board()
 end
 
 def valid_move?(board, index)
