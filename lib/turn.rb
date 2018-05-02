@@ -12,6 +12,7 @@ def turn(board)
   next_move = -1
   until valid_move?(board, next_move)
     next_move = gets.strips
+    index = input_to_index(next_move)
   end
   # index = input_to_index(next_move)
   # move(board, index)
