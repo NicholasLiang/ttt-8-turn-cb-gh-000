@@ -19,7 +19,7 @@ def turn(board)
 end
 
 def valid_move?(board, index)
-  if index >= 0 && index < 9 && !position_taken(board, index)
+  if index >= 0 && index < 9 && !position_take?(board, index)
     return true
   end
   false
