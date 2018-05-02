@@ -36,6 +36,6 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
-def input2index(next_move)
+def input_to_index(next_move)
   next_move.to_i
 end
